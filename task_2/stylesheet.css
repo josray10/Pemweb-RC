@@ -1,0 +1,96 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  display: block;
+  background-color: #f8ede3;
+}
+form {
+  align-content: center;
+  width: 400px;
+  height: 300px;
+  background-color: #b6e388;
+  border: 3px solid grey;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  font-family: "Karla";
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Bauhaus Reguler";
+  src: url("./src/font/BauhausRegular.ttf");
+}
+
+h1 {
+  font-family: "Bauhaus Reguler", sans-serif;
+}
+
+h2 {
+  font-family: "Cambria";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  color: #2c3639;
+  text-align: center;
+}
+
+input {
+  display: block;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 115px;
+  margin-bottom: 1px;
+}
+
+label {
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 4px;
+  display: block;
+}
+
+.btn-submit {
+  display: block;
+  width: 75px;
+  height: 35px;
+  margin: center;
+  margin-top: 37px;
+  background: #fcffb2;
+  border-radius: 32px;
+}
+
+h2,
+.box {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+img {
+  width: 200px;
+  border-radius: 40px;
+}
+
+.layoutproduk {
+  position: relative;
+  float: left;
+  width: 300px;
+  height: 550px;
+  border: 1px solid rgb(39, 36, 36);
+  border-radius: 30px;
+  margin-left: 100px;
+  margin-right: 60px;
+  margin-top: 45px;
+  padding: 20px;
+
+  background-color: #d1d1d1;
+}
+s {
+  color: red;
+}
